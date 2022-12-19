@@ -1,19 +1,5 @@
-# Streamlit Worldle
 
-Streamlit + SQLite clone of worldle
-
-Built with ❤️ by [gerardrbentley](https://github.com/gerardrbentley)
-
-## What's this?
-
-- `README.md`: This Document! To help you find your way around
-- `streamlit_app.py`: The main app that gets run by [`streamlit`](https://docs.streamlit.io/)
-- `requirements.txt`: Pins the version of packages needed
-- `LICENSE`: Follows Streamlit's use of Apache 2.0 Open Source License
-- `.gitignore`: Tells git to avoid comitting / scanning certain local-specific files
-- `.streamlit/config.toml`: Customizes the behaviour of streamlit without specifying command line arguments (`streamlit config show`)
-
-### Streamlit Worldle
+# 1. Description
 
 A geography guessing game with the following rules:
 
@@ -36,41 +22,12 @@ A geography guessing game with the following rules:
     - The maximum `distance` possible is roughly `20000 km` (two points on opposite sides of the globe)
     - The `proximity` percentage is based on the maximum `distance`
 
-## Local Setup
 
-Assumes working python installation and some command line knowledge ([install python with conda guide](https://tech.gerardbentley.com/python/beginner/2022/01/29/install-python.html)).
+# 2. Live Link 
+https://shreyasomani-country-wordle-streamlit-app-85iw28.streamlit.app/
 
-```sh
-# External users: download Files
-git clone git@github.com:gerardrbentley/streamlit_worldle.git
-
-# Go to correct directory
-cd streamlit_worldle
-
-# Create virtual environment for this project
-python -m venv venv
-
-# Activate the virtual environment
-. ./venv/bin/activate
-# .\venv\Scripts\activate for Windows
-
-# Install required Packages
-python -m pip install -r requirements.txt
-
-# Run the streamlit app
-streamlit run streamlit_app.py
-```
-
-Open your browser to [http://localhost:8501/](http://localhost:8501/) if it doesn't open automatically.
-## Deploy
-
-For the easiest experience, deploy to [Streamlit Cloud](https://streamlit.io/cloud)
-
-For other options, see [Streamilt deployment wiki](https://discuss.streamlit.io/t/streamlit-deployment-guide-wiki/5099)
-
-## Credits
-
-This package was created with Cookiecutter and the `gerardrbentley/cookiecutter-streamlit` project template.
-
-- Cookiecutter: [https://github.com/audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
-- `gerardrbentley/cookiecutter-streamlit`: [https://github.com/gerardrbentley/cookiecutter-streamlit](https://github.com/gerardrbentley/cookiecutter-streamlit)
+# 3. Screenshots
+![Country Wrodle1](https://user-images.githubusercontent.com/57498575/208485816-4ca00c78-f87e-4cf9-b1cc-0febc42f9064.png)
+![Country Wrodle2](https://user-images.githubusercontent.com/57498575/208485836-37d5528f-4ee5-451f-ae3f-e526dda06f7f.png)
+![Country Wrodle3](https://user-images.githubusercontent.com/57498575/208485856-061aedb5-5360-4d67-924a-a2f1a3175bf9.png)
+![Country Wrodle4](https://user-images.githubusercontent.com/57498575/208485864-c2f8b37e-1f68-461b-9318-0b44a481ee12.png)
